@@ -3,16 +3,17 @@
 <body>
 
 <?php
-$x = 5;
-$y = 10;
+$beta = 0;
+$xis = 5;
+$ypslon = 10;
 
 function myTest() {
-  global $x, $y;
-  $y = $x + $y;
+  global $beta, $xis, $ypslon;
+  $beta = $xis * $ypslon;
 }
 
 myTest();
-echo $y; // outputs 15
+echo $beta; // outputs 50
 ?>
 
 </body>
