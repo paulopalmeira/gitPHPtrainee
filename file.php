@@ -30,3 +30,7 @@ $txt = "Goofy Goof\n";
 fwrite($myfile, $txt);
 fclose($myfile);
 ?>
+
+<?php
+echo readfile("newfile.txt");
+?>
