@@ -1,4 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
-$txt = "PHP";
-echo "Eu amo $txt!";
+$x = 5;
+$y = 10;
+
+function myTest() {
+  global $x, $y;
+  $y = $x + $y;
+}
+
+myTest();
+echo $y; // outputs 15
 ?>
+
+</body>
+</html>
