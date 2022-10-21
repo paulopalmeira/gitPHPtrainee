@@ -1,6 +1,5 @@
 <html>
 <body>
-
 <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
@@ -60,6 +59,5 @@ O seu site é <?php echo $_GET["website"]; ?>
 O comentário foi: <?php echo $_GET["comment"]; ?>
 
 O seu genero é: <?php echo $_GET["gender"]; ?>
-
 </body>
 </html>
